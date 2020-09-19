@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import data from "../Data.json";
 import PostCard from "./PostCard";
 import Comment from "./Comment";
-
+/**
+ * Create a post page with post's individual comments
+ */
 export default class Post extends Component {
   state = {
     post: data.posts.find(
@@ -14,9 +16,8 @@ export default class Post extends Component {
     console.log(this.state.post);
     return (
       <div>
-        <PostCard post={this.state.post}>
-          <Comment post={this.state.post} />
-        </PostCard>
+        <PostCard post={this.state.post} />
+        <Comment post={this.state.post} />
       </div>
     );
   }

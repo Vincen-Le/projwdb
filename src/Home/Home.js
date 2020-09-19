@@ -6,7 +6,10 @@ import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-//Fills multiple cards with information from each post and allows user to click on each post to be redirected to see post's comments
+/**
+ * Fills multiple cards with information from each post and allows user to
+ * click on each post to be redirected to see post's comments
+ */
 export default class Home extends Component {
   state = {
     posts: data.posts,

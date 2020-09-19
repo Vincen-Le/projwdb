@@ -2,7 +2,9 @@ import React from "react";
 import "./PostCard.css";
 import Comment from "./Comment";
 import "./Comment.css";
-//Provides formatting and information made in one single post
+/**
+ * Provides formatting and information made in one single post
+ */
 const PostCard = ({ post }) => {
   console.log(post.published);
   return (

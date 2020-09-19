@@ -1,23 +1,24 @@
 .comment {
   position: relative;
-  width: 1200px;
+  width: 1500px;
+  min-height: 150px;
   left: 140px;
-  top: 200px;
+  top: 450px;
   background: #ffffff;
-  border-radius: 10px;
+  border-radius: 0px;
+  overflow: auto;
 }
 .commentor {
-  position: absolute;
-  width: 864px;
-  height: 24px;
-  left: 150px;
-  top: 865px;
+  position: relative;
 
-  font-family: Rubik;
+  font-family: "Arial";
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
+  padding-top: 10px;
+  margin-left: 20px;
+
   /* identical to box height */
 
   letter-spacing: 0.12em;
@@ -25,18 +26,48 @@
   color: #b6b8ba;
 }
 .comment-content {
-  position: absolute;
+  position: relative;
   width: 1033px;
-  height: 181px;
-  left: 150px;
-  top: 897px;
 
-  font-family: Rubik;
+  font-family: "Arial";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.12em;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  float: left;
 
   color: #000000;
+}
+.comment-up {
+  position: relative;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.12em;
+  margin-left: 1300px;
+  padding-top: 10px;
+  text-align: left;
+
+  color: #b6b8ba;
+}
+.comment-down {
+  position: relative;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.12em;
+  margin-left: 1300px;
+  text-align: left;
+
+  color: #b6b8ba;
 }

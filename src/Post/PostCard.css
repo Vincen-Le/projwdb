@@ -1,18 +1,18 @@
 .main-container {
   position: relative;
   width: 1500px;
-  min-height: 800px;
+  min-height: 100px;
   left: 140px;
   top: 500px;
   background: #ffffff;
   border-radius: 10px;
 }
 .author {
-  position: absolute;
+  position: relative;
   width: 864px;
   height: 24px;
-  left: 2%;
-  top: 3%;
+  padding-top: 20px;
+  margin-left: 20px;
 
   font-family: "Arial";
   font-style: normal;
@@ -26,11 +26,10 @@
   color: #b6b8ba;
 }
 .main-title {
-  position: absolute;
+  position: relative;
   width: 1400px;
-  height: 45px;
-  left: 2%;
-  top: 8%;
+  padding-top: 30px;
+  margin-left: 20px;
 
   font-family: "Arial";
   font-style: normal;
@@ -42,11 +41,11 @@
   color: #000000;
 }
 .mainpost-content {
-  position: absolute;
+  position: relative;
   width: 1400px;
-  height: 79px;
-  left: 2%;
-  top: 35%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 20px;
 
   font-family: "Arial";
   font-style: normal;
@@ -58,11 +57,10 @@
   color: black;
 }
 .main-upvotes {
-  position: absolute;
+  position: relative;
   width: 250px;
-  height: 84px;
-  left: 2%;
-  top: 20%;
+  padding-top: 25px;
+  margin-left: 20px;
 
   font-family: "Arial";
   font-style: normal;
@@ -74,27 +72,22 @@
   color: #b6b8ba;
 }
 .main-downvotes {
-  position: absolute;
+  position: relative;
   width: 250px;
-  height: 84px;
-  left: 2%;
-  top: 25%;
+  margin-left: 20px;
 
   font-family: "Arial";
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 28px;
   letter-spacing: 0.12em;
 
   color: #b6b8ba;
 }
 .main-totalvotes {
-  position: absolute;
+  position: relative;
   width: 250px;
-  height: 84px;
-  left: 2%;
-  top: 30%;
+  margin-left: 20px;
 
   font-family: "Arial";
   font-style: normal;
@@ -106,11 +99,11 @@
   color: #b6b8ba;
 }
 .divide {
-  position: absolute;
+  position: relative;
   width: 1493px;
   height: 0px;
   left: 0%;
-  top: 80%;
+  margin-bottom: 50px;
 
   border: 3px solid #b6b8ba;
 }

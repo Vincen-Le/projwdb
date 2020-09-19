@@ -6,7 +6,10 @@ import rberkeley from "./berkeley.png";
 import pubuni from "./pubuni.png";
 import "./HeaderCard.css";
 import { Link } from "react-router-dom";
-
+/**
+ * Creates the header card that holds the Berkeley image and
+ * Berkeley logo with r/Berkeley
+ */
 const HeaderCard = () => {
   return (
     <div>

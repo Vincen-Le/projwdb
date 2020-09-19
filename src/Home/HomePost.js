@@ -1,7 +1,10 @@
 import { Link } from "@material-ui/core";
 import React from "react";
 import "./HomePost.css";
-//Formats and displays information from each post in organized containers to be seen on the home page
+/**
+ * Formats and displays information from each post
+ * in organized containers to be seen on the home page
+ */
 const HomePost = ({ post }) => {
   return (
     <div className="post-container">
